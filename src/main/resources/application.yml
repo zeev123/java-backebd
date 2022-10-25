@@ -1,0 +1,5 @@
+liquibase.enabled: false
+twilio:
+  account_sid: AC69f664aebfc0969e8e320911aae5eabb
+  auth_token: e4ccd48c3b82187521f561851c08c86a
+  trial_number: +19206956906
