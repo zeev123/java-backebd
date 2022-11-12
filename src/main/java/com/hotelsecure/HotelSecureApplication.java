@@ -30,16 +30,16 @@ public class HotelSecureApplication  {
 	@Bean
 	CommandLineRunner run(UserService userService){
 		return args -> {
-			userService.seveRole(new Role(null, "ROLE_RECEPTION"));
-			userService.seveRole(new Role(null, "ROLE_MANAGER"));
-			userService.seveRole(new Role(null, "ROLE_OWNER"));
+//			userService.seveRole(new Role(null, "ROLE_RECEPTION"));
+//			userService.seveRole(new Role(null, "ROLE_MANAGER"));
+//			userService.seveRole(new Role(null, "ROLE_OWNER"));
 
-			userService.seveUser(new User(null,false,new Date(),"zeev", "zeev","1234","ROLE_MANAGER", new ArrayList<>()));
+//			userService.seveUser(new User(null,false,new Date(),"zeev", "zeev","1234","ROLE_MANAGER", new ArrayList<>()));
 //			userService.seveUser(new User(null,"MOSHE", "MOSHE","1234", new ArrayList<>()));
 //			userService.seveUser(new User(null,"doodi", "doodi","1234", new ArrayList<>()));
 //			userService.seveUser(new User(null,"jo biden", "jo","1234", new ArrayList<>()));
 //			userService.addRoleToUser("zeev1","ROLE_MANAGER");
-			userService.addRoleToUser("zeev","ROLE_MANAGER");
+//			userService.addRoleToUser("zeev","ROLE_MANAGER");
 
 //			userService.addRoleToUser("MOSHE","ROLE_RECEPTION");
 //			userService.addRoleToUser("doodi","ROLE_RECEPTION");
