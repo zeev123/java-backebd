@@ -2,7 +2,6 @@ package com.hotelsecure.api;
 
 import com.hotelsecure.repo.RoomsRepo;
 import com.hotelsecure.tables.Guests;
-import com.hotelsecure.tables.GuestsInRoom;
 import com.hotelsecure.tables.Rooms;
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;

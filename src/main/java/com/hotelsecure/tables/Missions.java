@@ -1,6 +1,5 @@
 package com.hotelsecure.tables;
 
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -37,8 +36,8 @@ public class Missions {
     @Column(name = "missions_message", nullable = false)
     private String missions_message;
 
-    @Column(name = "system", nullable = true)
-    private String system;
+    @Column(name = "sys", nullable = true)
+    private String sys;
 
     @Column(name = "progrem_language", nullable = true)
     private String progrem_language;
@@ -59,7 +58,7 @@ public class Missions {
     public Missions() {
     }
 
-    public Missions(String the_missions, Long user_id, Date start_date, Date start_work_date, Date end_date, String status, String type, String missions_message, String system, String progrem_language, String note, String photo_path, String should_end) {
+    public Missions(String the_missions, Long user_id, Date start_date, Date start_work_date, Date end_date, String status, String type, String missions_message, String sys, String progrem_language, String note, String photo_path, String should_end) {
         this.the_missions = the_missions;
         this.user_id = user_id;
         this.start_date = start_date;
@@ -68,7 +67,7 @@ public class Missions {
         this.status = status;
         this.type = type;
         this.missions_message = missions_message;
-        this.system = system;
+        this.sys = sys;
         this.progrem_language = progrem_language;
         this.note = note;
         this.photo_path = photo_path;
@@ -147,12 +146,12 @@ public class Missions {
         this.missions_message = missions_message;
     }
 
-    public String getSystem() {
-        return system;
+    public String getSys() {
+        return sys;
     }
 
-    public void setSystem(String system) {
-        this.system = system;
+    public void setSys(String sys) {
+        this.sys = sys;
     }
 
     public String getProgrem_language() {

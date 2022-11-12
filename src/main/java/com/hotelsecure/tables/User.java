@@ -32,4 +32,6 @@ public class User {
     @ManyToMany(fetch = EAGER)
     private Collection<Role> roles = new ArrayList<>();
 
+//    public <E> User11(Object o, String zeev_resner, String zeev, String s, ArrayList<E> es) {
+//    }
 }
